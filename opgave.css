@@ -3,9 +3,11 @@ body{
 }
 
 h1{
-    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
+    color: white;
 }
 
 ul{
