@@ -14,5 +14,13 @@ li{
  list-style: none;
  font-family: 'Courier New', Courier, monospace;
  font-size: 2rem;
- 
+
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
 }
