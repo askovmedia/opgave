@@ -665,7 +665,7 @@ body #usermenu {
 		margin-right: 5px;
 	}
 	#ctl00_panelAnonymousTemplate.showlogin #ctl00_lnkCreateprofile {
-		float: right;
+		
 		position: absolute;
 		bottom: 20px;
 		text-decoration: none;
