@@ -377,6 +377,21 @@ h4 {
 	display:block;
 	padding:25px;
 }
+
+.headcenter{
+    text-align: center;
+    font-size: 24px;
+    color: #224F72;
+}
+
+.obt{
+    font-size: 20px;
+    color: #000;
+}
+
+#hs{
+    font-size: 50px;
+}
 /* ---------------------------------- */
 /* -------------- LEFT -------------- */
 /* ---------------------------------- */
