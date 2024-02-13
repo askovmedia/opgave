@@ -8,19 +8,8 @@
 /* ----------------------------------- */
 /* ----------  RESPONSIVE   ---------- */
 /* ----------------------------------- */
-.menu.create_profile_link_responsive{
-    text-align: center;
-	font-size: 28px !important;
-    position: absolute;
-    float:right;
-	right:60px;
-    width: 60px !important;
-    height: 60px;
-	z-index:99999;
-	display:block !important;
-	border-left:1px solid;
-	background-color:#215800;
-}
+
+
 .show_hide_responsive{
 	font-size:2em !important;
 	color:#fff;
@@ -44,41 +33,10 @@
 	z-index:99999;
 	display:block;
 }
+
 .home_link_responsive:hover, .show_hide_responsive:hover, .menu.create_profile_link_responsive:hover {
 	background-color:rgba(255, 255, 255, 0.2);
 }
-#topmenufixed .fa-home:before{
-	line-height:65px;
-	transition:ease 0.4s;	
-}
-#topmenufixed .fa-user-plus:before{
-	line-height:65px;
-	transition:ease 0.4s;	
-}
-#topmenufixed .fa-sign-in:before{
-	line-height:65px;
-	transition:ease 0.4s;
-}
-#nav-icon3 {
-	display:block;
-	cursor:pointer;
-	height:100%;
-	width:60px;
-}
-.topmn .popout:after {
-	content: " \f107";
-    font-family: FontAwesome;
-}
-.topmn .level2 .popout:after {
-	content: "\f105";
-	margin-right:10px;
-	float:right;
-	position:absolute;
-}
-
-/* ----------------------------------- */
-/* ---------- CUSTOM STYLES ---------- */
-/* ----------------------------------- */
 
 /* ----------------------------------- */
 /* ------- CUSTOM RESPONSIVE --------- */
@@ -396,6 +354,13 @@ h4 {
 #content {
 	position:relative;
 	float:left;
+
+
+}
+
+#sponsor{
+    position: relative;
+    align-content: center;
 }
 /* ----------------------------------- */
 /* ------------- INDHOLD ------------- */
@@ -410,7 +375,7 @@ h4 {
 }
 #ctl00_ContentPlaceHolderBody_lblPageContent {
 	display:block;
-	padding:15px;
+	padding:25px;
 }
 /* ---------------------------------- */
 /* -------------- LEFT -------------- */
@@ -433,8 +398,7 @@ h4 {
 	border-right:6px solid #000 !important;
 	font-weight:600 !important;
 }
-#leftmenu {
-}
+
 .DynamicMenuStyle {
 	display: block !important;
 }
@@ -453,7 +417,6 @@ h4 {
 	text-align: center;
 	display: inline-block;
 	color: #fff;
-	float: left;
 	margin-right: 20px;
 	text-decoration: none;
  transition: all .1s linear;
@@ -471,8 +434,7 @@ h4 {
 	top: 21px;
 	width: 1em;
 }
-.show_left:hover {
-}
+
 .DynamicMenuStyle {
 	width:100%;
 }
@@ -554,12 +516,8 @@ footer {
 	/*Body Nyhedsarkiv*/
 	background-image:none;
 }
-.NewsIframe h2 {
-/*Overskrift pÃ¥ Seneste nyheder iFrame KUN*/
-}
-.NewsHeading h1 {
-/*Overskrift pÃ¥ Nyheds arkiv iFrame KUN*/
-}
+
+
 .NewsIframe .NewsItem {
 	/*Hele indholdet af en enkelt nyhed*/
 	border: none !important;
@@ -648,9 +606,7 @@ display: none !important;
 	/* Body Kalender */
 	background-image:none;
 }
-.CalendarIframe h2 {
-/* Overskrift pÃ¥ Kalender iFrame */
-}
+
 .CalItem {
 	/*Hele indholdet af en enkelt kalender aktivitet*/
 	border-bottom: none !important;
@@ -775,10 +731,8 @@ display: none !important;
 #ctl00_lnkCreateprofile:hover:before {
     margin-right: 5px;
 }
-#loginbox .login {} #loginbox #logininfo {
-    position: relative;
-    float: left;
-}
+
+
 #loginbox #logininfo a,
 #loginbox #logininfo span {
     color: red;
@@ -1068,14 +1022,13 @@ display: none !important;
 	margin-right: 5px!important;
 	padding: 5px 10px !important;
 	position: relative !important;
-	marign-bottom: 20px!important;
+	margin-bottom: 20px!important;
 	width: 47%!important;
 	float: left!important;
 	margin-bottom: 52px!important;
 }
-#newsArchive_leftcol .NewsItem:hover .NewsHeader span {
-text-decoration:none!important!important
-}
+
+
 #newsArchive_leftcol .NewsItem:hover .newsImgCon {
 	background-size:100%!important;
 	text-decoration:none!important
@@ -1085,7 +1038,6 @@ text-decoration:none!important!important
 	top: 305px!important;
 	left: 100px!important;
 	font-size: 14px!important;
-font-style: normal!important!important;
 	font-weight: 700;
 	color: #000!important;
 }
@@ -1140,13 +1092,11 @@ font-style: normal!important!important;
     transition: all .1s linear;
     position: absolute;
     top: 0 !important;
-    float: left;
     z-index: 99;
     display: block;
 }
-.show_left:hover {} #leftmenu {} #leftmenu a {
-    width: 271px;
-}
+
+
 table.StaticMenuStyle > tbody > tr > td:nth-child(2) > img {
     display: none;
 }
@@ -1178,7 +1128,7 @@ table.StaticMenuStyle > tbody > tr > td:nth-child(2) {
     border-left: 6px solid #fff;
     border-bottom: 1px solid #ccc;
     transition: all .1s ease-in-out;
-    S
+    
 }
 #con a:hover {
     border-left: 6px solid #0E2E4E !important;
