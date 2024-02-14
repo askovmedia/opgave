@@ -1,4 +1,4 @@
-/* KM blue: #0063a6 */
+/* KM blue: #0063a6a */
 /* .col-lg-12 = PC */
 /* .col-sm-12 = Tablet */
 /* .col-xs-12 = Mobile */
@@ -8,11 +8,11 @@
 /* ----------------------------------- */
 /* ----------  RESPONSIVE   ---------- */
 /* ----------------------------------- */
-
+/* ---------------miek------------------- */
 
 .show_hide_responsive{
 	font-size:2em !important;
-	color:#fff;
+	color:#ffffff;
 	width:60px !important;
 	height:60px;
 	float:right;
