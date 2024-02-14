@@ -1,4 +1,4 @@
-// Variables and types
+// Variables and typess
 let btn = $('#button');
 
 // Control Structure (if-else)
