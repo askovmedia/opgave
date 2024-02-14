@@ -29,3 +29,28 @@ btn.on('click', function(e) {
   // DOM manipulation
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+
+//Kevins Menu//
+
+// Variables and types
+const menu_btn = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+
+// Control Structure (if-else)
+// Events
+menu_btn.addEventListener('click', function () {
+    // Control Structure (Loops)
+    // Functions
+    // Variable Scope (including LET)
+    // Operators
+    // DOM (Document Object Model)
+    // Objects
+    if (menu_btn.classList.contains('is-active')) {
+        menu_btn.classList.remove('is-active');
+        mobile_menu.classList.remove('is-active');
+    } else {
+        menu_btn.classList.add('is-active');
+        mobile_menu.classList.add('is-active');
+    }
+});
