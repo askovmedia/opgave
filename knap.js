@@ -54,3 +54,5 @@ menu_btn.addEventListener('click', function () {
         mobile_menu.classList.add('is-active');
     }
 });
+
+
