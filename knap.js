@@ -1,3 +1,8 @@
+//-----------------//
+//Mikes Back to top//
+//-----------------//
+
+
 // Variables and typess
 let btn = $('#button');
 
@@ -31,7 +36,10 @@ btn.on('click', function(e) {
 });
 
 
+//-----------//
 //Kevins Menu//
+//-----------//
+
 
 // Variables and types
 const menu_btn = document.querySelector('.hamburger');
