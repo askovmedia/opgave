@@ -19,7 +19,7 @@ $(window).scroll(function() {
 
 // Control Structure (Lops)
 // Example array of elements
-var elements = ['Element 1', 'Element 2', 'Element 3'];
+var elements = ['1', '2', 'mål'];
 
 // Loops
 for (let i = 0; i < elements.length; i++) {
